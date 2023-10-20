@@ -1,0 +1,13 @@
+
+/* Estilos CSS */
+h1 { 
+    color: blue;
+    font-size: 24px;
+}
+
+p {
+    color: green;
+    font-size: 16px;
+}
+head > title {color: rgb(209, 230, 27); /* Cambia el color a rojo o el color que desees */
+}

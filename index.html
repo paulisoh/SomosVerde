@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlaces a archivos CSS -->
+      <link rel="stylesheet" href="./css/estiloPodcast.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>SOMOS VERDE PODCAST</title>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link" href="contactanos.html">Contactanos</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+</head>
+<body>
+   
+   
+
+    <!-- Título -->
+    <h1 style="border: 2px solid #333; padding: 10px; text-align: center; background-color: #0a6348; color: white;">SOMOS VERDE PODCAST</h1>
+    
+    <!-- Estilo para el título -->
+    <style>
+    h1{color: rgb(1, 41, 22);}
+    h1{.center-horizontal {
+    margin-left: auto;
+    margin-right: auto;}}
+    h1{font-size: 50px;}
+
+
+    </style>
+    
+    <!-- Párrafo -->
+    <p>"¡Bienvenido!
+        En Somos Verde, creemos en un futuro donde la sostenibilidad y la responsabilidad ambiental son el motor de la innovación y el progreso. Nos hemos comprometido a divulgar eco educación y generar conexiones estratégicas para el cambio hacia un mundo más sostenible, donde los recursos naturales se utilizan de manera responsable y las comunidades prosperan en armonía con el medio ambiente. 
+        Nuestra misión es clara: inspirar y capacitar a individuos, empresas y gobiernos para tomar medidas concretas en la construcción de un planeta más verde y saludable. Estamos dedicados a investigar, desarrollar y promover soluciones sostenibles que tengan un impacto positivo en el mundo. Con pasión, experiencia y una visión audaz, nos enorgullece aportar en el cambio hacia un futuro más sostenible. Únete a nosotros en este viaje hacia un mundo mejor para las generaciones presentes y futuras."
+
+        </p>
+
+    <!-- Estilo para el párrafo -->
+    <style>
+        p {
+            font-size: 20px;
+            font-family: Tahoma, sans-serif; /* Cambié la fuente a sans-serif */
+            color: rgb(19, 138, 25);
+        }
+    </style>
+    <div class="container-fluid">
+    <!-- Otro título -->
+    <h5>CATEGORIAS</h5>
+
+    <!-- Estilo para el segundo título -->
+    <style>
+        h5 {
+            font-size: 30px;
+        }
+    </style>
+     
+    <!-- Tabla -->
+    <table>
+        <!--Inicio de la tabla-->
+        <tr>
+            <!-- Titulos de las filas -->
+            <th>PLANETA VERDE</th>
+                        <th>ECO EDUCACION</th>
+            <th>SOMOS NATURALEZA</th>
+        </tr>
+        
+        <tr>
+            <td>
+                    <img  src="./images/PLANETA VERDE.jpg" width="330px"  style="border: 15px solid; color: rgb(5, 238, 199);" alt="Planeta Verde" >
+            </td>            
+            <td>
+                <img src="./images/Economia circular.jpg" width="450px" style="border: 15px solid; color: rgb(228, 23, 235);" alt="Eco Educación">
+            </td>
+            <td>
+                <img src="./images/SOMOS NATURALEZA.jpg" width="550px" style="border: 15px solid; color: rgb(20, 229, 236);" alt="Somos Naturaleza">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <p>
+                    Buscamos edificar lazos que conectan economía, salud, ecosistemas, medio ambiente y fenómenos climáticos
+                </p>
+                <audio id="planeta_verde" src="./audio/Planeta verde.ogg" controls></audio>
+                <button type="button" class="btn btn-success" onclick="document.getElementById('planeta_verde').play()">Escucha</button>
+            </td>
+            <td>
+                <p>
+                    Un espacio divulgativo en el que se ofrecen valiosas experiencias para ayudar a llevar una vida más sostenible.
+                </p> 
+                <audio id="ecoeducacion" src="./audio/Ecoeducación.ogg" controls></audio>                   
+                <button type="button" class="btn btn-success" onclick="document.getElementById('ecoeducacion').play()">Escucha</button>
+            </td>
+            <td>
+                <p>
+                    Nuestra misión servir de altavoz a los proyectos de la organización a través del testimonio de sus responsables, así como comentar otras noticias y curiosidades relacionadas con los ecosistemas, la flora y la fauna.
+                </p>
+                <audio id="somos_naturaleza" src="./audio/Somos naturaleza.ogg" controls></audio>
+                <button type="button" class="btn btn-success" onclick="document.getElementById('somos_naturaleza').play">Escucha</button>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+</body>
+</html>
+
+
+
+
